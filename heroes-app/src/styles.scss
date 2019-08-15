@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+button {
+    color: #000 !important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+}
+button:hover,
+button:focus,
+button:active {
+    text-decoration: none !important
+}
+.is-active {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    
+    button {
+        color: #fff !important;
+    }
+}
